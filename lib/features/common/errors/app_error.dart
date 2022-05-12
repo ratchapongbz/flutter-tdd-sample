@@ -15,6 +15,10 @@ class AppError extends Equatable {
     required this.type,
   });
 
+  factory AppError.nullValue(String message) => AppError(message: message, type: AppErrorType.nullValue);
+
+  factory AppError.unAuthorized(String message) => AppError(message: message, type: AppErrorType.unAuthorized);
+
   @override
   List<Object?> get props => [message, type];
 }

@@ -46,9 +46,6 @@ dependencies:
   # https://pub.dev/packages/json_annotation/install
   json_annotation: ^4.5.0
 
-  # https://pub.dev/packages/mockito/install
-  mockito: ^3.0.2
-
   # https://pub.dev/packages/provider/install
   provider: ^6.0.2
 
@@ -57,7 +54,10 @@ dev_dependencies:
     sdk: flutter
 
   build_runner:
+  # https://pub.dev/packages/json_serializable
   json_serializable: ^6.2.0
+  # https://pub.dev/packages/mockito/install
+  mockito: ^5.1.0
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
