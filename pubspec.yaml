@@ -49,6 +49,9 @@ dependencies:
   # https://pub.dev/packages/mockito/install
   mockito: ^3.0.2
 
+  # https://pub.dev/packages/provider/install
+  provider: ^6.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
